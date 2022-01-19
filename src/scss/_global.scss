@@ -1,0 +1,47 @@
+html,
+body{
+  height: 100%;
+}
+body {
+  @extend %muller-300;
+  font-size: 20px;
+  color: $text;
+}
+
+.container {
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+  @extend %bebas-700;
+  font-size: 104px;
+  line-height: 119px;
+  color: $title;
+  text-transform: uppercase;
+}
+
+.title-accent{
+  color: $accent;
+}
+
+.menu__btn{
+  display: none;
+  position: absolute;
+}
+
+.header-top__phone-btn{
+  display: none;
+  background-image: url('../images/icons/order-call.svg');
+  width: 34px;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 26px;
+  cursor: pointer;
+
+}
