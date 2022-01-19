@@ -169,6 +169,22 @@
     font-size: 54px;
     line-height: normal;
   }
+  .slick-prev,
+  .slick-next{
+    width: 35px;
+    height: 35px;
+    &::before{
+      width: 6px;
+      height: 11px;
+      background-image: url('../images/icons/arrow-slider-miniright.svg');
+    }
+  }
+  .slick-next{
+    left: 45px;
+    &::before{
+      background-image: url('../images/icons/arrow-slider-minileft.svg');
+    }
+  }
 }
 
 @media(max-width: 420px){
